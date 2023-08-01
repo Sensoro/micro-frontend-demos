@@ -1,17 +1,12 @@
-import { useState } from 'react'
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from '@/routers';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
-    <>
-      <h1>child-react</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
+    <BrowserRouter basename="child-react">
+      <Router />
+    </BrowserRouter>
   )
 }
 

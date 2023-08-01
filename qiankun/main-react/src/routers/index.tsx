@@ -8,19 +8,19 @@ import Login from '@/pages/login';
 export const routes: NonIndexRouteObject[] = [
   {
     path: '/',
-    element: <Navigate to="/dashboard" />,
+    element: <Navigate to="/home" />,
   },
   {
     element: <BasicLayout />,
     children: [
       {
-        path: 'dashboard',
-        element: <Lazy entry={() => import('@/pages/dashboard')} />,
+        path: 'home',
+        element: <Lazy entry={() => import('@/pages/home')} />,
       },
       {
         path: 'child-react/*',
         element: <MicroApp name="child-react" />,
-      }
+      },
     ],
   },
   {

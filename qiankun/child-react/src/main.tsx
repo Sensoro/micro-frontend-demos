@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { createLifecyle, getMicroApp } from 'vite-plugin-legacy-qiankun'
 
-const appName = import.meta.env.BASE_UR;
+const appName = 'child-react';
 const microApp = getMicroApp(appName)
 
 const render = () => {

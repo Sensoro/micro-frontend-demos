@@ -4,6 +4,8 @@
     "start:qiankun": "pnpm run --parallel --filter @qiankun/* start"
   },
   "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@types/node": "^20.4.5"
   }
 }
