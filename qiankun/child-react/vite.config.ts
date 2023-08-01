@@ -21,10 +21,6 @@ export default defineConfig({
   plugins: [
     react({
       fastRefresh: false,
-      jsxImportSource: '@emotion/react',
-      babel: {
-        plugins: ['@emotion/babel-plugin'],
-      },
     }),
     pages({
       resolver: 'react',
