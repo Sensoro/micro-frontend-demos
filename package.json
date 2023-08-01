@@ -1,14 +1,8 @@
 {
-  "name": "micro-frontend-demos",
-  "version": "1.0.0",
-  "description": "微前端框架示例汇总",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pnpm run start:qiankun",
+    "start:qiankun": "pnpm run --parallel --filter @qiankun/* start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.4.5"
   }
