@@ -1,0 +1,12 @@
+{
+  "name": "micro-frontend-demos",
+  "version": "1.0.0",
+  "description": "微前端框架示例汇总",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
