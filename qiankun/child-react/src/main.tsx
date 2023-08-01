@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
+import { APP_NAME } from '@/config';
 import { createLifecyle, getMicroApp } from 'vite-plugin-legacy-qiankun'
 
-const appName = 'child-react';
+const appName = APP_NAME;
 const microApp = getMicroApp(appName)
 
 const render = () => {
