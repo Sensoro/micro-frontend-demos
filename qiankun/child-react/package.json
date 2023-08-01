@@ -21,7 +21,7 @@
   "devDependencies": {
     "@emotion/babel-plugin": "^11.11.0",
     "@vitejs/plugin-legacy": "^4.0.3",
-    "@vitejs/plugin-react": "^3.1.0",
+    "@vitejs/plugin-react": "^4.0.4",
     "vite": "^4.3.8",
     "vite-plugin-html": "^3.2.0",
     "vite-plugin-legacy-qiankun": "^0.0.12",
